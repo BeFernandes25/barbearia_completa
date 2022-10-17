@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+}
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -5,7 +9,7 @@ header {
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -93,4 +97,44 @@ footer{
 }
 .main_principal img:hover{
 	border: 1px solid red;
+}
+@media only screen and (max-width: 932px){
+	header img{
+		display: none;
+		margin: 0;
+	}
+	.caixa{
+		width: auto;
+		margin: 0 auto;
+	}
+	header nav{
+		position:initial;
+		margin: 0 auto;
+		
+	}
+	header nav a{
+		font-size: 15px;
+	}
+	.main_principal{
+		display: block;
+		height: 500px;
+	}
+	.main_principal img{
+		display: none;
+	
+		margin: 0;
+	}
+	.produtos li{
+		display: block;
+		width: 250px;
+		margin: 20px auto;
+	}
+
+	.produtos{
+		
+		width: 270PX;
+		margin: 0 auto;
+		padding: 0;
+	}
+
 }
